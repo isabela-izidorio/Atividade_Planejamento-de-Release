@@ -1,6 +1,28 @@
-<h1>Sistema Hipotético para Atividade Prática</h1>
-<form>
-    USUÁRIO: <input type="text"><br>
-    SENHA: <input type="password"><br>
-    <button type="button" onclick="window.location.href='pg001.html'">ENTRAR</button>
-</form>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Hipotético - Login</title>
+</head>
+<body>
+    <h1>Sistema Hipotético para Atividade Prática</h1>
+    <form id="loginForm">
+        USUÁRIO: <input type="text" id="usuario"><br>
+        SENHA: <input type="password" id="senha"><br>
+        <button type="button" onclick="validar()">ENTRAR</button>
+    </form>
+
+    <script>
+        function validar() {
+            var user = document.getElementById('usuario').value;
+            if (user === "") {
+                window.location.href = "msg.html"; 
+            } else if (user === "admin") {
+                window.location.href = "pg001.html";
+            } else {
+                window.location.href = "pg002.html"; 
+            }
+        }
+    </script>
+</body>
+</html>
