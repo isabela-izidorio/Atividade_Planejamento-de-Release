@@ -1,14 +1,15 @@
-# Atividade: Planejamento de Release
+# Release Planning
 
-- Integrantes:
-  - Ian Felipe - BP305361X
-  - Isabela de Melo - BP3053458
-  - Wendell Fossen - BP3054438
- 
-- Propósito do projeto:
-  - Simulação de controle de versão e planejamento de releases.
+A college activity focused on version control simulation and release planning.
 
-- Plano de Releases:
-  - v0.1 (Login básico)
-  - v0.2 (Navegação Admin)
-  - v1.0 (Validação completa)
+## Team
+
+- Ian Felipe — BP305361X
+- Isabela de Melo — BP3053458
+- Wendell Fossen — BP3054438
+
+## Release Plan
+
+- **v0.1** — Basic Login
+- **v0.2** — Admin Navigation
+- **v1.0** — Complete Validation
